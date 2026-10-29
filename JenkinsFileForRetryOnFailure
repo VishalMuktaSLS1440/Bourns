@@ -1,0 +1,111 @@
+pipeline {
+    agent {label 'Automation'}
+        tools {
+        maven "mvn"
+        jdk "JAVA8"
+    }
+    parameters{
+      string(name: 'maxRetryCnt', defaultValue: '0')
+      choice choices: ['Dont_Record', 'Record_the_test_always', 'Record_the_test_only_on_failure'], description: 'These options are to record the test execution recording', name: 'TestVideoRecording'
+
+
+    }
+    environment{
+        JAVA_HOME=setJAVAEnv()
+        M2_HOME=setMAVENEnv()
+    }
+
+
+    stages {
+
+    stage('Jenkins Parameter'){
+                                    steps{
+                                        script {
+                                             echo "${params.maxRetryCnt}"
+                                             echo "${params.TestVideoRecording}"
+                                           }
+                                    }
+                                }
+
+        stage('Initialize'){
+            steps{
+                script {
+                    echo "JAVA_HOME = ${JAVA_HOME}"
+                    echo "M2_HOME = ${M2_HOME}"
+                    echo "PATH = ${PATH}"
+                    if (isUnix()) {
+                        sh '''#!/bin/bash mvn --version'''
+                    }
+                    else{
+                        bat 'mvn --version'
+                    }
+                }
+            }
+        }
+        stage ('Install') {
+            steps {
+                script {
+                    if (isUnix()) {
+                        sh '''#!/bin/bash mvn clean install -DskipTests'''
+                    }
+                    else{
+                        bat 'mvn clean install -DskipTests'
+                    }
+                }
+            }
+        }
+        stage ('Test') {
+            steps {
+                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+                    script {
+                        if (isUnix()) {
+                            sh "mvn test -DmaxRetryCnt=${params.maxRetryCnt} -DTestVideoRecording=${params.TestVideoRecording}"
+                        }
+                        else{
+                            bat "mvn test -DmaxRetryCnt=${params.maxRetryCnt} -DTestVideoRecording=${params.TestVideoRecording}"
+                        }
+                    }
+                }
+            }
+        }
+        stage ('Reports') {
+            steps {
+                script {
+                    if (isUnix()) {
+                        sh '''#!/bin/bash mvn allure:report'''
+                    }
+                    else{
+                        bat 'mvn allure:report'
+                    }
+                    allure([
+                            includeProperties: false,
+                            jdk: '',
+                            properties: [],
+                            reportBuildPolicy: 'ALWAYS',
+                            results: [[path: 'target/allure-results']]
+                    ])
+                }
+            }
+        }
+
+    }
+}
+
+
+
+def setJAVAEnv() {
+    if (isUnix()) {
+        return "/usr/lib/jvm/java-8-openjdk-amd64"
+    }
+    else{
+        return "C:\\Program Files\\Java\\jre-9.0.4"
+    }
+}
+def setMAVENEnv() {
+    if (isUnix()) {
+        return "/opt/apache-maven-3.8.6"
+    }
+    else{
+        return "C:\\Tools\\apache-maven-3.8.1"
+    }
+}

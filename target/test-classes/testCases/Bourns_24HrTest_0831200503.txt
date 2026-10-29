@@ -1,0 +1,35 @@
+Test Case Name: Bourns_24HrTest_0831200503
+Test Case Description: Generated Test Case for Bourns_24HrTest_0831200503
+Test Case Object Repo: C:/Users/SLS1437/OneDrive - Sodales Solutions/Documents/AutomationProject/Bourns_24Hr/src/test/resources/objectRepo/codeGenerationRepo/Bourns_24HrTest_0831200503.json
+Test Case Date: Mon Aug 31 20:05:03 IST 2026
+---------------------------------------------------------------------------------------------
+Test Case Steps:
+
+490: Open the browser
+491: Go to the URL: https://login.microsoftonline.com/b0a6d117-e479-4dff-b613-143c9ac97794/saml2
+492: The application is navigated to: https://login.microsoftonline.com/b0a6d117-e479-4dff-b613-143c9ac97794/saml2
+493: Click on the webelement input_i0116
+494: Send the value "user1@sodalessolutions.com" to the webelement input_i0116
+495: Click on the webelement input_i0118
+496: Send the value "cmFu=EjMzA0clxWYk92UZG9t" to the webelement input_i0118
+497: Click on the webelement input_idSIButton9
+498: The application is navigated to: https://login.microsoftonline.com/b0a6d117-e479-4dff-b613-143c9ac97794/login
+499: Click on the webelement input_idSIButton9
+500: The application is navigated to: https://flpnwc-v8me11qy8y.dispatcher.us4.hana.ondemand.com/sites?siteId=b3ccbea6-6f5c-43ca-a8f5-ffad59e9351c&evictCache=true#Shell-home
+501: Get the text of the webElement div___item0_anchorNavigationBar_2_inner and assert with the text "Safety Coordinator"
+502: Click on the webelement div___item0_anchorNavigationBar_2_inner
+503: Get the text of the webElement span___tile5_title_inner and assert with the text "Review Incident/Accident"
+504: Click on the webelement span___tile5_title_inner
+505: The application is navigated to: https://flpnwc-v8me11qy8y.dispatcher.us4.hana.ondemand.com/sites?siteId=b3ccbea6-6f5c-43ca-a8f5-ffad59e9351c&evictCache=true#ReviewIncident_Safety_App-Display&/
+506: Click on the webelement div_application_ReviewIncident_Safety_App_Display_component___worklist__idIncidentTableNonLoggedIn_rowsel0
+507: Get the text of the webElement bdi___button6_BDI_content and assert with the text "Reopen"
+508: Click on the webelement bdi___button6_BDI_content
+509: Click on the webelement div_application_ReviewIncident_Safety_App_Display_component___worklist__idIncidentTableNonLoggedIn_rowsel1
+510: Get the text of the webElement bdi___button6_BDI_content and assert with the text "Reopen"
+511: Click on the webelement bdi___button6_BDI_content
+512: Get the text of the webElement span_meAreaHeaderButton and assert with the text "S"
+513: Click on the webelement span_meAreaHeaderButton
+514: Get the text of the webElement div15_Sign_Out and assert with the text "Sign Out"
+515: Click on the webelement div15_Sign_Out
+516: Get the text of the webElement bdi___mbox_btn_0_BDI_content and assert with the text "OK"
+517: Click on the webelement bdi___mbox_btn_0_BDI_content

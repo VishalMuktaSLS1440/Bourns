@@ -1,0 +1,60 @@
+Test Case Name: Bourns_24HrTest_0901164951
+Test Case Description: Generated Test Case for Bourns_24HrTest_0901164951
+Test Case Object Repo: C:/Users/SLS1437/OneDrive - Sodales Solutions/Documents/AutomationProject/Bourns_24Hr/src/test/resources/objectRepo/codeGenerationRepo/Bourns_24HrTest_0901164951.json
+Test Case Date: Tue Sep 01 16:49:51 IST 2026
+---------------------------------------------------------------------------------------------
+Test Case Steps:
+
+293: Open the browser
+294: Go to the URL: https://login.microsoftonline.com/b0a6d117-e479-4dff-b613-143c9ac97794/saml2
+295: The application is navigated to: https://login.microsoftonline.com/b0a6d117-e479-4dff-b613-143c9ac97794/saml2
+296: Click on the webelement input_i0116
+297: Send the value "user2@sodalessolutions.com" to the webelement input_i0116
+298: Click on the webelement input_i0118
+299: Send the value "cmFu=EjMzA0clxWYk92UZG9t" to the webelement input_i0118
+300: Click on the webelement input_idSIButton9
+301: The application is navigated to: https://login.microsoftonline.com/b0a6d117-e479-4dff-b613-143c9ac97794/login
+302: Click on the webelement input_idSIButton9
+303: The application is navigated to: https://flpnwc-v8me11qy8y.dispatcher.us4.hana.ondemand.com/sites?siteId=b3ccbea6-6f5c-43ca-a8f5-ffad59e9351c&evictCache=true#Shell-home
+304: Get the text of the webElement div___item0_anchorNavigationBar_2_inner and assert with the text "Safety Coordinator"
+305: Click on the webelement div___item0_anchorNavigationBar_2_inner
+306: Get the text of the webElement span___tile2_title_inner and assert with the text "24 Hour Safety Report"
+307: Click on the webelement span___tile2_title_inner
+308: The application is navigated to: https://flpnwc-v8me11qy8y.dispatcher.us4.hana.ondemand.com/sites?siteId=b3ccbea6-6f5c-43ca-a8f5-ffad59e9351c&evictCache=true#Safety_Report-Display
+309: Click on the webelement span_application_Safety_Report_Display_component___worklist___idForBourns_arrow
+310: Get the text of the webElement li___item4_application_Safety_Report_Display_component___worklist___idForBourns_1 and assert with the text "BAG (Bourns AG)"
+311: Click on the webelement li___item4_application_Safety_Report_Display_component___worklist___idForBourns_1
+312: Click on the webelement span_application_Safety_Report_Display_component___worklist___idForCategory_arrow
+313: Get the text of the webElement li___item5_application_Safety_Report_Display_component___worklist___idForCategory_0 and assert with the text "Accident"
+314: Click on the webelement li___item5_application_Safety_Report_Display_component___worklist___idForCategory_0
+315: Click on the webelement span___picker0_icon
+316: Get the text of the webElement span31_1 and assert with the text "1"
+317: Click on the webelement span31_1
+318: Click on the webelement span_application_Safety_Report_Display_component___worklist___idForEnvironmentAccident_arrow
+319: Get the text of the webElement li___item6_application_Safety_Report_Display_component___worklist___idForEnvironmentAccident_3 and assert with the text "Maintenance areas"
+320: Click on the webelement li___item6_application_Safety_Report_Display_component___worklist___idForEnvironmentAccident_3
+321: Get the text of the webElement bdi___button4_BDI_content and assert with the text "Add Body Part"
+322: Click on the webelement bdi___button4_BDI_content
+323: Click on the webelement span___box1___table0_0_arrow
+324: Get the text of the webElement div110_Chest_Pain and assert with the text "Chest Pain"
+325: Click on the webelement div110_Chest_Pain
+326: Click on the webelement span___box2___table0_0_arrow
+327: Get the text of the webElement li___item54 and assert with the text "Chest"
+328: Click on the webelement li___item54
+329: Click on the webelement span___box3___table0_0_arrow
+330: Get the text of the webElement div325_Left and assert with the text "Left"
+331: Click on the webelement div325_Left
+332: Send the value "test" to the webelement textarea___area3_inner
+333: Get the text of the webElement bdi___button8_BDI_content and assert with the text "Submit"
+334: Click on the webelement bdi___button8_BDI_content
+335: Get the text of the webElement bdi___mbox_btn_0_BDI_content and assert with the text "OK"
+336: Click on the webelement bdi___mbox_btn_0_BDI_content
+337: Get the text of the webElement bdi___mbox_btn_2_BDI_content and assert with the text "OK"
+338: Click on the webelement bdi___mbox_btn_2_BDI_content
+339: The application is navigated to: https://flpnwc-v8me11qy8y.dispatcher.us4.hana.ondemand.com/sites?siteId=b3ccbea6-6f5c-43ca-a8f5-ffad59e9351c&evictCache=true#Shell-home
+340: Get the text of the webElement span_meAreaHeaderButton and assert with the text "S"
+341: Click on the webelement span_meAreaHeaderButton
+342: Get the text of the webElement div16_Sign_Out and assert with the text "Sign Out"
+343: Click on the webelement div16_Sign_Out
+344: Get the text of the webElement bdi___mbox_btn_3_BDI_content and assert with the text "OK"
+345: Click on the webelement bdi___mbox_btn_3_BDI_content

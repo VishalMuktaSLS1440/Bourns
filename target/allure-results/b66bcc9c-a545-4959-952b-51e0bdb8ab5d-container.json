@@ -1,0 +1,1 @@
+{"uuid":"b66bcc9c-a545-4959-952b-51e0bdb8ab5d","name":"Bourns_24HrTest_0909113518_Test","children":["3a0f73eb-1cc0-4dc1-b89e-c6388aadc74a"],"befores":[{"name":"Bourns_24HrTest_0909113518_DataProvider","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1793280429629,"stop":1793280429642}],"afters":[],"start":1793280429629,"stop":1793283629346}

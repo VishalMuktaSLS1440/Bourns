@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suite name="AutoGenSuite">
+    <!--Suite-->
+    <test name="AutoGenTest" preserve-order="true">
+        <!--Test-->
+        <classes>
+           <class name="com.sodales.bourns_24hr.test.Bourns_24HrTest_0831153214"/>
+            <class name="com.sodales.bourns_24hr.test.Bourns_24HrTest_0831200503"/>
+            <class name="com.sodales.bourns_24hr.test.Bourns_24HrTest_0901131340"/>
+            <class name="com.sodales.bourns_24hr.test.Bourns_24HrTest_0901164951"/>
+            <class name="com.sodales.bourns_24hr.test.Bourns_24HrTest_0902153831"/>
+            <class name="com.sodales.bourns_24hr.test.Bourns_24HrTest_0907113411"/>
+            <class name="com.sodales.bourns_24hr.test.Bourns_24HrTest_0909113447"/>
+            <class name="com.sodales.bourns_24hr.test.Bourns_24HrTest_0909113518"/>
+        </classes>
+    </test>
+</suite>

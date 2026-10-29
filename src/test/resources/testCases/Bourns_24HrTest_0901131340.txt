@@ -1,0 +1,42 @@
+Test Case Name: Bourns_24HrTest_0901131340
+Test Case Description: Generated Test Case for Bourns_24HrTest_0901131340
+Test Case Object Repo: C:/Users/SLS1437/OneDrive - Sodales Solutions/Documents/AutomationProject/Bourns_24Hr/src/test/resources/objectRepo/codeGenerationRepo/Bourns_24HrTest_0901131340.json
+Test Case Date: Tue Sep 01 13:13:40 IST 2026
+---------------------------------------------------------------------------------------------
+Test Case Steps:
+
+111: Open the browser
+112: Go to the URL: https://login.microsoftonline.com/b0a6d117-e479-4dff-b613-143c9ac97794/saml2
+113: The application is navigated to: https://login.microsoftonline.com/b0a6d117-e479-4dff-b613-143c9ac97794/saml2
+114: Click on the webelement input_i0116
+115: Send the value "user2@sodalessolutions.com" to the webelement input_i0116
+116: Send the value "cmFu=EjMzA0clxWYk92UZG9t" to the webelement input_i0118
+117: Click on the webelement input_idSIButton9
+118: The application is navigated to: https://login.microsoftonline.com/b0a6d117-e479-4dff-b613-143c9ac97794/login
+119: Click on the webelement input_idSIButton9
+120: The application is navigated to: https://flpnwc-v8me11qy8y.dispatcher.us4.hana.ondemand.com/sites?siteId=b3ccbea6-6f5c-43ca-a8f5-ffad59e9351c&evictCache=true#Shell-home
+121: Get the text of the webElement span___tile5_title_inner and assert with the text "Review Incident/Accident"
+122: Click on the webelement span___tile5_title_inner
+123: The application is navigated to: https://flpnwc-v8me11qy8y.dispatcher.us4.hana.ondemand.com/sites?siteId=b3ccbea6-6f5c-43ca-a8f5-ffad59e9351c&evictCache=true#ReviewIncident_Safety_App-Display&/
+124: Get the text of the webElement bdi___button7_BDI_content and assert with the text "Create Incident/Near Miss"
+125: Click on the webelement bdi___button7_BDI_content
+126: Click on the webelement span__idForBournsC_arrow
+127: Get the text of the webElement div47_BAG__Bourns_ and assert with the text "BAG (Bourns AG)"
+128: Click on the webelement div47_BAG__Bourns_
+129: Click on the webelement span__idForCategoryC_arrow
+130: Get the text of the webElement div168_Incident and assert with the text "Incident"
+131: Click on the webelement div168_Incident
+132: Click on the webelement input___picker1_inner
+133: Send the value "01/09/2026" to the webelement input___picker1_inner
+134: Get the text of the webElement bdi___button8_BDI_content and assert with the text "Submit"
+135: Click on the webelement bdi___button8_BDI_content
+136: Get the text of the webElement span___mbox_btn_0_content and assert with the text "Yes"
+137: Click on the webelement span___mbox_btn_0_content
+138: Get the text of the webElement bdi___mbox_btn_2_BDI_content and assert with the text "OK"
+139: Click on the webelement bdi___mbox_btn_2_BDI_content
+140: Get the text of the webElement span_meAreaHeaderButton and assert with the text "S"
+141: Click on the webelement span_meAreaHeaderButton
+142: Get the text of the webElement div153_Sign_Out and assert with the text "Sign Out"
+143: Click on the webelement div153_Sign_Out
+144: Get the text of the webElement bdi___mbox_btn_3_BDI_content and assert with the text "OK"
+145: Click on the webelement bdi___mbox_btn_3_BDI_content

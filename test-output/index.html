@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-AutoGenSuite" class="navigator-link">
+              <span class="suite-name border-failed">AutoGenSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-AutoGenSuite" class="navigator-link ">
+                    <span>C:\Users\SLS1440\Downloads\Bourns_24Hr\Bourns_24Hr\src\test\resources\testSuites\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-AutoGenSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-AutoGenSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-AutoGenSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-AutoGenSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-AutoGenSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-AutoGenSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-AutoGenSuite" class="hide-methods failed suite-AutoGenSuite"> (hide)</a> <!-- hide-methods failed suite-AutoGenSuite -->
+                      <a href="#" panel-name="suite-AutoGenSuite" class="show-methods failed suite-AutoGenSuite"> (show)</a> <!-- show-methods failed suite-AutoGenSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-AutoGenSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutoGenSuite" title="com.sodales.bourns_24hr.test.Bourns_24HrTest_0902153831" class="method navigator-link" hash-for-method="Bourns_24HrTest_0902153831_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, test, Test)">Bourns_24HrTest_0902153831_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, test, Test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-AutoGenSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AutoGenSuite" class="hide-methods passed suite-AutoGenSuite"> (hide)</a> <!-- hide-methods passed suite-AutoGenSuite -->
+                      <a href="#" panel-name="suite-AutoGenSuite" class="show-methods passed suite-AutoGenSuite"> (show)</a> <!-- show-methods passed suite-AutoGenSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-AutoGenSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutoGenSuite" title="com.sodales.bourns_24hr.test.Bourns_24HrTest_0831153214" class="method navigator-link" hash-for-method="Bourns_24HrTest_0831153214_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, tewst)">Bourns_24HrTest_0831153214_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, tewst)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutoGenSuite" title="com.sodales.bourns_24hr.test.Bourns_24HrTest_0831200503" class="method navigator-link" hash-for-method="Bourns_24HrTest_0831200503_Test(user1@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t)">Bourns_24HrTest_0831200503_Test(user1@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutoGenSuite" title="com.sodales.bourns_24hr.test.Bourns_24HrTest_0901131340" class="method navigator-link" hash-for-method="Bourns_24HrTest_0901131340_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, 02-09-2026)">Bourns_24HrTest_0901131340_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, 02-09-2026)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutoGenSuite" title="com.sodales.bourns_24hr.test.Bourns_24HrTest_0901164951" class="method navigator-link" hash-for-method="Bourns_24HrTest_0901164951_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, test)">Bourns_24HrTest_0901164951_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutoGenSuite" title="com.sodales.bourns_24hr.test.Bourns_24HrTest_0907113411" class="method navigator-link" hash-for-method="Bourns_24HrTest_0907113411_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, 09/07/2026, tested, tested, 2, tested, tested,...)">Bourns_24HrTest_0907113411_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, 09/07/2026, tested, tested, 2, tested, tested,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutoGenSuite" title="com.sodales.bourns_24hr.test.Bourns_24HrTest_0909113447" class="method navigator-link" hash-for-method="Bourns_24HrTest_0909113447_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, 09/09/2026)">Bourns_24HrTest_0909113447_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, 09/09/2026)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutoGenSuite" title="com.sodales.bourns_24hr.test.Bourns_24HrTest_0909113518" class="method navigator-link" hash-for-method="Bourns_24HrTest_0909113518_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, 09-10-2026, tested, tested, test, test, 12, 1,...)">Bourns_24HrTest_0909113518_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, 09-10-2026, tested, tested, test, test, 12, 1,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AutoGenSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AutoGenSuite" class="panel AutoGenSuite">
+          <div class="suite-AutoGenSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sodales.bourns_24hr.test.Bourns_24HrTest_0902153831</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Bourns_24HrTest_0902153831_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, test, Test)">
+                  </a> <!-- Bourns_24HrTest_0902153831_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, test, Test) -->
+                  <span class="method-name">Bourns_24HrTest_0902153831_Test</span>
+                  <span class="parameters">(user2@sodalessolutions.com,cmFu=EjMzA0clxWYk92UZG9t,test,Test)</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\SLS1437\OneDrive - Sodales Solutions\Pictures\Screenshots\img.png
+  (Session info: chrome=156.0.8078.48)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SLS1440&apos;, ip: &apos;172.20.128.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.48, chrome: {chromedriverVersion: 156.0.8078.47 (1d17a2e2ee14..., userDataDir: C:\Users\SLS1440\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61578}, goog:processID: 56864, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 36874e51255520a50fa6ac3b613e9446
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at com.epam.healenium.handlers.proxy.WebElementProxyHandler.invoke(WebElementProxyHandler.java:53)
+	at jdk.proxy2/jdk.proxy2.$Proxy36.sendKeys(Unknown Source)
+	at com.sodales.bourns_24hr.pages.Reviewincident_Safety_App_Display_Bournsfacility.input_application_ReviewIncident_Safety_App_Display_component___object___idForDocUpload_2_uploader_fu_sendKeys(Reviewincident_Safety_App_Display_Bournsfacility.java:2276)
+	at com.sodales.bourns_24hr.test.Bourns_24HrTest_0902153831.Bourns_24HrTest_0902153831_Test(Bourns_24HrTest_0902153831.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutoGenSuite-class-failed -->
+          <div class="suite-AutoGenSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sodales.bourns_24hr.test.Bourns_24HrTest_0831200503</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Bourns_24HrTest_0831200503_Test(user1@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t)">
+                  </a> <!-- Bourns_24HrTest_0831200503_Test(user1@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t) -->
+                  <span class="method-name">Bourns_24HrTest_0831200503_Test</span>
+                  <span class="parameters">(user1@sodalessolutions.com,cmFu=EjMzA0clxWYk92UZG9t)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutoGenSuite-class-passed -->
+          <div class="suite-AutoGenSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sodales.bourns_24hr.test.Bourns_24HrTest_0831153214</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Bourns_24HrTest_0831153214_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, tewst)">
+                  </a> <!-- Bourns_24HrTest_0831153214_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, tewst) -->
+                  <span class="method-name">Bourns_24HrTest_0831153214_Test</span>
+                  <span class="parameters">(user2@sodalessolutions.com,cmFu=EjMzA0clxWYk92UZG9t,tewst)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutoGenSuite-class-passed -->
+          <div class="suite-AutoGenSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sodales.bourns_24hr.test.Bourns_24HrTest_0909113447</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Bourns_24HrTest_0909113447_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, 09/09/2026)">
+                  </a> <!-- Bourns_24HrTest_0909113447_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, 09/09/2026) -->
+                  <span class="method-name">Bourns_24HrTest_0909113447_Test</span>
+                  <span class="parameters">(user2@sodalessolutions.com,cmFu=EjMzA0clxWYk92UZG9t,09/09/2026)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutoGenSuite-class-passed -->
+          <div class="suite-AutoGenSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sodales.bourns_24hr.test.Bourns_24HrTest_0901164951</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Bourns_24HrTest_0901164951_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, test)">
+                  </a> <!-- Bourns_24HrTest_0901164951_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, test) -->
+                  <span class="method-name">Bourns_24HrTest_0901164951_Test</span>
+                  <span class="parameters">(user2@sodalessolutions.com,cmFu=EjMzA0clxWYk92UZG9t,test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutoGenSuite-class-passed -->
+          <div class="suite-AutoGenSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sodales.bourns_24hr.test.Bourns_24HrTest_0909113518</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Bourns_24HrTest_0909113518_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, 09-10-2026, tested, tested, test, test, 12, 1,...)">
+                  </a> <!-- Bourns_24HrTest_0909113518_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, 09-10-2026, tested, tested, test, test, 12, 1,...) -->
+                  <span class="method-name">Bourns_24HrTest_0909113518_Test</span>
+                  <span class="parameters">(user2@sodalessolutions.com,cmFu=EjMzA0clxWYk92UZG9t,09-10-2026,tested,tested,test,test,12,1,tested,09-10-2026,09-10-2026)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutoGenSuite-class-passed -->
+          <div class="suite-AutoGenSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sodales.bourns_24hr.test.Bourns_24HrTest_0901131340</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Bourns_24HrTest_0901131340_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, 02-09-2026)">
+                  </a> <!-- Bourns_24HrTest_0901131340_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, 02-09-2026) -->
+                  <span class="method-name">Bourns_24HrTest_0901131340_Test</span>
+                  <span class="parameters">(user2@sodalessolutions.com,cmFu=EjMzA0clxWYk92UZG9t,02-09-2026)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutoGenSuite-class-passed -->
+          <div class="suite-AutoGenSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sodales.bourns_24hr.test.Bourns_24HrTest_0907113411</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Bourns_24HrTest_0907113411_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, 09/07/2026, tested, tested, 2, tested, tested,...)">
+                  </a> <!-- Bourns_24HrTest_0907113411_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, 09/07/2026, tested, tested, 2, tested, tested,...) -->
+                  <span class="method-name">Bourns_24HrTest_0907113411_Test</span>
+                  <span class="parameters">(user2@sodalessolutions.com,cmFu=EjMzA0clxWYk92UZG9t,09/07/2026,tested,tested,2,tested,tested,tested,test,MF,12,2,tested)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutoGenSuite-class-passed -->
+        </div> <!-- panel AutoGenSuite -->
+        <div panel-name="test-xml-AutoGenSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\SLS1440\Downloads\Bourns_24Hr\Bourns_24Hr\src\test\resources\testSuites\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;AutoGenSuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AutoGenTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sodales.bourns_24hr.test.Bourns_24HrTest_0831153214&quot;/&gt;
+      &lt;class name=&quot;com.sodales.bourns_24hr.test.Bourns_24HrTest_0831200503&quot;/&gt;
+      &lt;class name=&quot;com.sodales.bourns_24hr.test.Bourns_24HrTest_0901131340&quot;/&gt;
+      &lt;class name=&quot;com.sodales.bourns_24hr.test.Bourns_24HrTest_0901164951&quot;/&gt;
+      &lt;class name=&quot;com.sodales.bourns_24hr.test.Bourns_24HrTest_0902153831&quot;/&gt;
+      &lt;class name=&quot;com.sodales.bourns_24hr.test.Bourns_24HrTest_0907113411&quot;/&gt;
+      &lt;class name=&quot;com.sodales.bourns_24hr.test.Bourns_24HrTest_0909113447&quot;/&gt;
+      &lt;class name=&quot;com.sodales.bourns_24hr.test.Bourns_24HrTest_0909113518&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AutoGenTest --&gt;
+&lt;/suite&gt; &lt;!-- AutoGenSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AutoGenSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AutoGenSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AutoGenTest (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AutoGenSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AutoGenSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AutoGenSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AutoGenSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AutoGenSuite');
+function tableData_AutoGenSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Bourns_24HrTest_0907113411_Test')
+data.setCell(0, 2, 'com.sodales.bourns_24hr.test.Bourns_24HrTest_0907113411')
+data.setCell(0, 3, 619282);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Bourns_24HrTest_0909113518_Test')
+data.setCell(1, 2, 'com.sodales.bourns_24hr.test.Bourns_24HrTest_0909113518')
+data.setCell(1, 3, 465603);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Bourns_24HrTest_0909113447_Test')
+data.setCell(2, 2, 'com.sodales.bourns_24hr.test.Bourns_24HrTest_0909113447')
+data.setCell(2, 3, 122219);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Bourns_24HrTest_0902153831_Test')
+data.setCell(3, 2, 'com.sodales.bourns_24hr.test.Bourns_24HrTest_0902153831')
+data.setCell(3, 3, 103748);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Bourns_24HrTest_0901164951_Test')
+data.setCell(4, 2, 'com.sodales.bourns_24hr.test.Bourns_24HrTest_0901164951')
+data.setCell(4, 3, 96218);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Bourns_24HrTest_0831200503_Test')
+data.setCell(5, 2, 'com.sodales.bourns_24hr.test.Bourns_24HrTest_0831200503')
+data.setCell(5, 3, 84777);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Bourns_24HrTest_0901131340_Test')
+data.setCell(6, 2, 'com.sodales.bourns_24hr.test.Bourns_24HrTest_0901131340')
+data.setCell(6, 3, 64187);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Bourns_24HrTest_0831153214_Test')
+data.setCell(7, 2, 'com.sodales.bourns_24hr.test.Bourns_24HrTest_0831153214')
+data.setCell(7, 3, 60286);
+window.suiteTableData['AutoGenSuite']= { tableData: data, tableDiv: 'times-div-AutoGenSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 26 minutes</span>
+              <div id="times-div-AutoGenSuite">
+              </div> <!-- times-div-AutoGenSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AutoGenSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AutoGenSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AutoGenSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AutoGenSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sodales.bourns_24hr.test.Bourns_24HrTest_0831153214</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configDriver</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Bourns_24HrTest_0831153214_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, tewst)</span>
+                <span class="method-start">9030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">69555 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sodales.bourns_24hr.test.Bourns_24HrTest_0831200503</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configDriver</span>
+                <span class="method-start">70579 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Bourns_24HrTest_0831200503_Test(user1@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t)</span>
+                <span class="method-start">73187 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">157986 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sodales.bourns_24hr.test.Bourns_24HrTest_0901131340</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configDriver</span>
+                <span class="method-start">159123 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Bourns_24HrTest_0901131340_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, 02-09-2026)</span>
+                <span class="method-start">162095 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">226297 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sodales.bourns_24hr.test.Bourns_24HrTest_0901164951</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configDriver</span>
+                <span class="method-start">227205 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Bourns_24HrTest_0901164951_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, test)</span>
+                <span class="method-start">229893 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">326124 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sodales.bourns_24hr.test.Bourns_24HrTest_0902153831</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configDriver</span>
+                <span class="method-start">326817 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Bourns_24HrTest_0902153831_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, test, Test)</span>
+                <span class="method-start">329205 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">433089 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sodales.bourns_24hr.test.Bourns_24HrTest_0907113411</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configDriver</span>
+                <span class="method-start">435055 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Bourns_24HrTest_0907113411_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, 09/07/2026, tested, tested, 2, tested, tested,...)</span>
+                <span class="method-start">439338 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">1058642 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sodales.bourns_24hr.test.Bourns_24HrTest_0909113447</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configDriver</span>
+                <span class="method-start">1059991 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Bourns_24HrTest_0909113447_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, 09/09/2026)</span>
+                <span class="method-start">1062858 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">1185082 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sodales.bourns_24hr.test.Bourns_24HrTest_0909113518</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configDriver</span>
+                <span class="method-start">1185760 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Bourns_24HrTest_0909113518_Test(user2@sodalessolutions.com, cmFu=EjMzA0clxWYk92UZG9t, 09-10-2026, tested, tested, test, test, 12, 1,...)</span>
+                <span class="method-start">1187282 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">1652906 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
